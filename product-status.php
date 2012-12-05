@@ -20,6 +20,9 @@
 
     <style>
 
+      /**
+       * Le styles for this piecemeal page.
+       */
       section {
         margin-top: 24px;
       }
@@ -50,7 +53,7 @@
   <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
 
 
-  <!-- Navbar
+  <!-- Navigation
     ================================================== -->
  <div class="navbar navbar-fixed-top">
    <div class="navbar-inner">
@@ -68,11 +71,10 @@
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us <b class="caret"></b></a>
             <ul class="dropdown-menu" id="swatch-menu">
-              <li><a href="http://panameducation.com/about-us.html">About Us</a></li>
+              <li><a href="http://panameducation.com/about-us.html">Our Team</a></li>
               <li class="divider"></li>
-              <li><a href="http://panameducation.com/newsroom.htmlamelia">Newsroom</a></li>
+              <li><a href="http://panameducation.com/newsroom.html">Newsroom</a></li>
               <li><a href="http://panameducation.com/partners.html">Partners</a></li>
-              <li><a id="swatch-link" href="/#gallery">Contact Us</a></li>
             </ul>
           </li>
           <li><a id="swatch-link" href="http://panameducation.com/contact-us.html">Contact Us</a></li>
@@ -101,6 +103,7 @@
     <ul class="nav nav-pills">
       <li><a href="#prodoverview">Overview</a></li>
       <li><a href="#status">Product Status</a></li>
+      <li><a href="#legacy">Legacy</a></li>
     </ul>
   </div>
 </header>
@@ -116,16 +119,9 @@
   <div class="row">
 
     <div class="span4">
-      <div class="well">
-        <h1>h1. Heading 1</h1>
-        <p>Lorum ipsum dolor sit amet.</p>
-      </div>
-    </div>
-
-    <div class="span4">
-      <h3>Example body text</h3>
-      <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-      <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
+      <h3>Web Service Updates</h3>
+      <p>In an effort to maintain Best-in-Class software for our partners and distributors we are retiring and replacing select products for 2013.</p>
+      <p>Unless otherwise agreed upon in your contract, new enrollments for retired products will stop processing after the new year.</p>
     </div>
 
     <div class="span4">
@@ -134,6 +130,10 @@
         <strong>Email us</strong><br>
         <a href="mailto:#">dev@panameducation.com</a>
       </address>
+    </div>
+
+    <div class="span4">
+      <img src="http://redux.dev/assets/img/paelogo300.png" style="background-size: contain;" />
     </div>
 
   </div>
@@ -155,7 +155,8 @@
   </div>
 
   <div class="page-header">
-    <h1>Product Status</h1>
+    <h2>Product Status</h2>
+    <p>Pan Am products and their status</p>
   </div>
   <table class="table table-bordered table-striped">
     <thead>
@@ -224,7 +225,7 @@
       </tr>
       <tr>
         <td>
-          <div class="progress progress-success progress-striped active">
+          <div class="progress progress-warning progress-striped active">
             <div class="bar" style="width: 100%"></div>
           </div>
         </td>
@@ -235,7 +236,7 @@
       </tr>
       <tr>
         <td>
-          <div class="progress progress-success progress-striped active">
+          <div class="progress progress-warning progress-striped active">
             <div class="bar" style="width: 100%"></div>
           </div>
         </td>
@@ -330,6 +331,89 @@
         <td>150-hour TESOL Certification Program</td>
         <td>Trains &amp; certifies teachers to teach ESL. Includes (<em>8</em>) 1 hour tutoring sessions with master instructors.</td>
         <td>$00.00</td>
+      </tr>
+    </tbody>
+  </table>
+
+</section>
+
+<br>
+
+<!-- Legacy Products
+================================================== -->
+<section id="legacy">
+
+  <div class="page-header">
+    <h2>Legacy</h2>
+    <p>The following products will no longer be available after 12/31/2012.</p>
+  </div>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Status</th>
+        <th>SKU</th>
+        <th>Product</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="5" class="table-head">
+          <h5>General English</h5>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="progress progress-danger progress-striped">
+            <div class="bar" style="width: 100%"></div>
+          </div>
+        </td>
+        <td>02101-AMEPR-LB</td>
+        <td>Pronunciation (Beginning)</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="progress progress-danger progress-striped">
+            <div class="bar" style="width: 100%"></div>
+          </div>
+        </td>
+        <td>02110-AMEPR-LI</td>
+        <td>Pronunciation (Intermediate)</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="progress progress-danger progress-striped">
+            <div class="bar" style="width: 100%"></div>
+          </div>
+        </td>
+        <td>02210-AMWR-LB</td>
+        <td>Writing (Beginning)</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="progress progress-danger progress-striped">
+            <div class="bar" style="width: 100%"></div>
+          </div>
+        </td>
+        <td>02220-AMWR-LI</td>
+        <td>Writing (Intermediate)</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="progress progress-danger progress-striped">
+            <div class="bar" style="width: 100%"></div>
+          </div>
+        </td>
+        <td>02310-AMEID-LB</td>
+        <td>Idioms (Beginning)</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="progress progress-danger progress-striped">
+            <div class="bar" style="width: 100%"></div>
+          </div>
+        </td>
+        <td>02320-AMEID-LI</td>
+        <td>Idioms (Intermediate)</td>
       </tr>
     </tbody>
   </table>
