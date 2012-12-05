@@ -24,12 +24,30 @@
         margin-top: 24px;
       }
 
+      span#navlogo {
+        width: 41px;
+        height: 24px;
+        margin-right: 2px;
+        display: inline-block;
+        text-indent: -9999px;
+        background: url('http://redux.dev/assets/img/paelogo24.png') no-repeat;
+      }
+
+      a.brand {
+        color: #00467F!important;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        line-height: 24px!important;
+      }
+
+      a.brand span {
+        margin: 0 28px;
+      }
+
     </style>
 
   </head>
 
   <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
-    <script src="../js/bsa.js"></script>
 
 
   <!-- Navbar
@@ -42,7 +60,7 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </a>
-       <a class="brand" href="http://panameducation.com">Pan Am Education</a>
+       <a class="brand" href="http://panameducation.com"><span id="navlogo">&raquo; </span>Pan Am Education</a>
        <div class="nav-collapse" id="main-menu">
         <ul class="nav" id="main-menu-left">
           <li><a href="http://developers.panameducation.com"><strong>Developers</strong></a></li>
@@ -87,8 +105,6 @@
   </div>
 </header>
 
-
-
 <!-- Typography
 ================================================== -->
 <section id="prodoverview">
@@ -113,16 +129,10 @@
     </div>
 
     <div class="span4">
-      <h3>Example addresses</h3>
+      <h3>Questions?</h3>
       <address>
-        <strong>Twitter, Inc.</strong><br>
-        795 Folsom Ave, Suite 600<br>
-        San Francisco, CA 94107<br>
-        <abbr title="Phone">P:</abbr> (123) 456-7890
-      </address>
-      <address>
-        <strong>Full Name</strong><br>
-        <a href="mailto:#">first.last@gmail.com</a>
+        <strong>Email us</strong><br>
+        <a href="mailto:#">dev@panameducation.com</a>
       </address>
     </div>
 
@@ -134,15 +144,12 @@
 ================================================== -->
 <section id="status">
 
-<!-- Alerts :: English4Me, available 12/07/12
-================================================== -->
-
-  <div class="row">
+  <div class="row"> <!-- Alert :: English4Me, available 12/07/12 -->
     <div class="span12">
         <div class="alert alert-block">
           <a class="close">&times;</a>
-          <h4 class="alert-heading">Alert block</h4>
-          <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+          <h4 class="alert-heading">Important!</h4>
+          <p>The following table shows Pan Am products and their availability to partners and distributors via the enrollment web service. English4Me products on hold will be available this Friday, 12/07/12 at 12:00AM MST. For early access, email form enrollments to dev <i>[at]</i> panameducation <i>[.]</i> com.</p>
         </div>
     </div>
   </div>
@@ -329,7 +336,7 @@
 
 </section>
 
-<br><br><br><br>
+<br>
 
      <!-- Footer
       ================================================== -->
