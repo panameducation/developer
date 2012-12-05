@@ -120,7 +120,7 @@
 
     <div class="span4">
       <h3>Web Service Updates</h3>
-      <p>In an effort to maintain Best-in-Class software for our partners and distributors we are retiring and replacing select products for 2013.</p>
+      <p>In an effort to maintain Best in Class software for our partners and distributors we are retiring and replacing select products for 2013.</p>
       <p>Unless otherwise agreed upon in your contract, new enrollments for retired products will stop processing after the new year.</p>
     </div>
 
@@ -128,7 +128,7 @@
       <h3>Questions?</h3>
       <address>
         <strong>Email us</strong><br>
-        <a href="mailto:#">dev@panameducation.com</a>
+        <span id="e617085705">[javascript protected email address]</span><script type="text/javascript">/*<![CDATA[*/eval("var a=\"i_w.CTboNH8k+FJASMy2BOvgQEujpec7GYUtDLsz4VZhqlmd@n0P9IRf36ax-1rXKW5\";var b=a.split(\"\").sort().join(\"\");var c=\"qlrF3VRVIlq1hV-nfRwhfI\";var d=\"\";for(var e=0;e<c.length;e++)d+=b.charAt(a.indexOf(c.charAt(e)));document.getElementById(\"e617085705\").innerHTML=\"<a href=\\\"mailto:\"+d+\"\\\">\"+d+\"</a>\"")/*]]>*/</script>
       </address>
     </div>
 
